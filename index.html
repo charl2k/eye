@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+
+<body>
+  <!--<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256px" height="256px" viewBox="0 0 256 256">
+    <rect x="5" y="5" width="100" height="100" stroke="#0f0" fill="#f00">
+  </svg>
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.o/1999/xlink" width="256px" height="256px" viewBox="0 0 256 256">
+    <path d="m 5 5 l 100 100 m 0 -100 l -100 100" stroke="#000" stroke-width="1" fill="none">
+  </svg>-->
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.o/1999/xlink" width="256px" height="256px" viewBox="0 0 256 256">
+    <clipPath id="eye">
+      <path d="m 0 128 
+        c 32 0 64 -48 128 -48 
+        c 64 0 96 48 128 48 
+        c -16 0 -16 -4 -32 -4 
+        c -16 0 -32 32 -96 32
+        c -64 0 -80 -32 -96 -32
+        c -16 0 -16 4 -32 4
+        z" stroke="none" stroke-width="1" fill="#e82" />
+    </clipPath>
+    <rect x="0" y="0" width="256" height="256" stroke="none" fill="#ed3" clip-path="url(#eye)" />
+    <circle cx="128" cy="120" r="32" stroke="none" fill="#f20" clip-path="url(#eye)" />
+    <circle cx="128" cy="120" r="8" stroke="none" fill="#2d9" clip-path="url(#eye)" />
+    <path d="m 0 130 
+      c 32 0 64 -44 128 -44 
+      c 64 0 96 44 128 44 
+      v -130 
+      h -256 
+      v -130
+      z" stroke="none" stroke-width="1" fill="#2d9" clip-path="url(#eye)" />
+    <path d="m 32 128
+      c 16 0 32 36 96 36 
+      c 64 0 80 -36 96 -36 
+      c -8 0 -32 42 -96 42 
+      c -64 0 -88 -43 -96 -42
+      z" stroke="none" fill="#f20" />
+      <!--
+      M x y :move
+      L x y :line
+      H x :水平線
+      V y :垂直線
+      S x1 y1 x y :2次ベジエ　制御点　終点
+      C x1 y1 x2 y2 x y :3次ベジエ　制御点1 制御点2 終点
+      Z: passを閉じる
+      -->
+  </svg>
+</body>
+
+</html>
